@@ -21,12 +21,18 @@ header > h1 {
     font-size: 2.2em;
 }
 
+.dipa {
+    color: white;
+    max-width: 700px;
+    min-width: 100px;
+    height: 100px;
+    margin: auto auto;
+}
+
 header > p {
     color: white;
     font-size: 1.2em;
     text-align: center;
-    padding-left: 600px;
-    padding-right: 600px;
 }
 
 header > button {
@@ -45,24 +51,26 @@ header > button:hover {
     cursor: pointer;
 }
 
-section {
-    width: 100vw;
-    background-color: white;
-    height: 24.5vh;
-}
-
 section > h1 {
     text-align: center;
     padding-top: 26px;
     font-size: 1.7em;
 }
 
+.duas {
+    width: 100vw;
+    background-color: white;
+    min-height: 24.5vh;
+}
+
 .paragrafo {
     margin-top: 20px;
     margin-bottom: 30px;
+    display: inline;
 }
 
 div > p {
+    padding: 20px;
     text-align: center;
     font-size: 1.1em;
 }
@@ -75,13 +83,29 @@ div > p {
 }
 
 .imagens > div {
-    display: inline-block;
-    margin: 30px;
-    width: 300px;
-    height: 500px;
+    display: block;
     background-color: white;
 }
 
 .imagens > div > img {
     width: 16vw;
+}
+
+.site {
+    margin: 30px;
+    width: 300px;
+    height: 500px;
+    background-image: url('imagens/web.jpeg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+
+.app {
+    margin: 30px;
+    width: 300px;
+    height: 500px;
+    background-image: url('imagens/web.jpeg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
